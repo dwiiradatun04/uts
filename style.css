@@ -1,0 +1,18 @@
+tr:nth-child(odd) td{
+    background-color: blue;
+}
+tr:nth-child(even) td{
+    background-color: lightblue;
+}
+tr:nth-child(odd) td:hover{
+    background-color: green;
+}
+tr:nth-child(even) td:hover{
+    background-color: yellow;
+}
+tr:nth-child(odd) td:active{
+    background-color: red;
+}
+tr:nth-child(even) td:active{
+    background-color: black;
+}
